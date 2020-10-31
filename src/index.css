@@ -16,3 +16,8 @@ h1.hover {
   color: darkcyan;
   text-transform: uppercase;
 }
+
+p.null {
+  color:firebrick;
+  font-weight: bolder;
+}
