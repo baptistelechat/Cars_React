@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Cars React
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" height="200" align="right">
+
+My first project in ReactJS. A project who list some cars.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,57 +17,42 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+## Installation
+Clone this repository, install nodejs's packages and start server.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/baptistelechat/Cars_React.git && yarn i && yarn start
+```
 
-### `yarn build`
+## Maintainers
+This project is mantained by:
+* [baptistelechat](https://github.com/baptistelechat)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Fork it
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -m 'Add some feature')
+4. Push your branch (git push origin my-new-feature)
+5. Create a new Pull Request
 
-### `yarn eject`
+## Gitmoji
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This project use Gitmoji : "An emoji guide for your commit messages".
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+	<a href="https://gitmoji.carloscuesta.me">
+		<img src="https://cloud.githubusercontent.com/assets/7629661/20073135/4e3db2c2-a52b-11e6-85e1-661a8212045a.gif" width="250" alt="gitmoji">
+	</a>
+</p>
+<p align="center">
+	<a href="https://travis-ci.org/carloscuesta/gitmoji">
+		<img src="https://img.shields.io/travis/carloscuesta/gitmoji/master?style=flat-square"
+			 alt="Build Status">
+	</a>
+	<a href="https://gitmoji.carloscuesta.me">
+		<img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
+			 alt="Gitmoji">
+	</a>
+</p>
