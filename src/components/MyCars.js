@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import {React, Component} from 'react'
 import Car from './Cars'
 
@@ -44,21 +45,29 @@ class MyCars extends Component {
         const year = new Date().getFullYear();
 
         return (
-            <div>
+            <Fragment>
                 <h1 onMouseOver={this.addHoverEffect}>{this.state.titre}</h1>
                 <p onCopy={this.noCopy}>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
 
                 <button onClick={this.addOneYear}>+ 1 ans</button>
 
-                {
-                    this.state.voitures.map((voiture, index) => {
-                        return(
-                           <Car key={index} name={voiture.name} color={voiture.color} year={year - voiture.year}/>
-                        )
-                    })
-                }
-
-            </div> 
+                <table className='carsTable'>
+                    <tr>
+                        <th>Marque</th>
+                        <th>Couleur</th>
+                        <th>Age</th>
+                    </tr>
+                    {
+                        this.state.voitures.map((voiture, index) => {
+                            return(
+                                <Fragment key={index}>
+                                    <Car  name={voiture.name} color={voiture.color} year={year - voiture.year}/>
+                                </Fragment>
+                            )
+                        })
+                    }
+                </table>
+            </Fragment> 
         )
     }
 }
